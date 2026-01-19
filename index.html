@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="over">
+        <div class="title">
+            <form id="loginForm">
+                <h1>تسجيل الدخول</h1>
+                <label for="nam">
+                    <input id="nam" type="text" required placeholder="الاسم">
+                    <span id="nameError" class="error"></span>
+                </label>
+                <label for="pas">
+                    <input id="pas" type="password" required placeholder="رقم السري">
+                    <span id="passError" class="error"></span>
+                </label>
+
+                <button class="my-btn">تسجيل </button>
+                <button id="resetBtn" class="my-btn">مسح</button>
+
+            </form>
+        </div>
+        <script src="main.js"></script>
+</body>
+
+</html>
